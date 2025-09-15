@@ -1,7 +1,7 @@
 rule Detect_Named_Pipe
 {
     meta:
-        author = "Axsh"
+        author = "hail0hyrda"
         description = "Detect is a named pipe is being created"
 
     strings:
@@ -11,5 +11,5 @@ rule Detect_Named_Pipe
         $r = "read" // additionals
 
     condition:
-        ( $sc1 or $sc2 ) or ( $w or $r )
+        ( $sc1 or $sc2 ) or ( $w or $r ) //just give it all
 }
