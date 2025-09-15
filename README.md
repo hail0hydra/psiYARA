@@ -17,7 +17,7 @@
 
 # TODO
 
-- [] add multiple rules based detection
+- [ ] add multiple rules based detection
 
-- [] add memory based detection
+- [ ] add memory based detection
 
